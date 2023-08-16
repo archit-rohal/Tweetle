@@ -1,0 +1,62 @@
+.size-2 {
+  font-size: x-large;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.margin-top-1 {
+  margin-top: 0.5rem;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.padding-5 {
+  padding: 0.5rem;
+}
+.underline-hover:hover {
+  text-decoration: underline;
+}
+.bgDarkmode {
+  background-color: black !important;
+  color: white !important;
+}
+.gap-5 {
+  gap: 10px;
+}
+
+.bgDarkmode-s {
+  background-color: white !important;
+  color: black !important;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.bgSecondaryDarkMode {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btnDark {
+  background-color: white !important;
+  color: black !important;
+}
+.btnDarkUsernname {
+  background-color: white !important;
+  color: black !important;
+}
+.bgDarkmodeActive {
+  background-color: black !important;
+  color: white;
+}

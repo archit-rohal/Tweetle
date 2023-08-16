@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: darksalmon;
+  min-height: 70px;
+  max-height: 80px;
+  color: black;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav-logo {
+  margin-right: 10px;
+}
+
+.nav-logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-heading {
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: -10px 8px 18px #b4bbbb;
+}
+
+.search-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  position: relative;
+}
+
+.searchOutput {
+  position: absolute;
+  top: 100%;
+  border: 1px solid black;
+
+  background-color: white;
+  color: black;
+  height: auto;
+  width: auto;
+  max-height: 200px;
+
+  overflow-y: scroll;
+}
+
+.searchResult-item {
+  list-style: none;
+  padding: 10px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 0.1rem;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+
+.searchOutput::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.searchOutput::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+.searchOutput::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: var(--primary);
+}
+
+.profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-follow-name {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.userId {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.searchResult-item:hover {
+  background-color: #f0f0f0;
+}
+
+.searchResult-item:hover .profileImg {
+  border: 2px solid #ccc;
+}
+
+.searchResult-item:hover .user-follow-name,
+.searchResult-item:hover .userId {
+  color: black;
+}
